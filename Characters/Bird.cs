@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 namespace Winter_Defense.Characters
 {
-    class Bird : InputManager
+    class GameCrystal : InputManager
     {
-        public Bird(Texture2D texture) : base(texture)
+        public GameCrystal(Texture2D texture) : base(texture)
         {
             // Stand
             CharacterSprite.CreateFrameList("stand", 200);

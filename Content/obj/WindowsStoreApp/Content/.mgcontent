@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>WindowsStoreApp</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/fonts/DebugFont.spritefont</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/characters/Player.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/projectiles/Snowball.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/characters/Crystal.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/tilesets/Background.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/tilesets/Tileset.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneMap/Background.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/characters/Ghost.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneMap/HudBackground.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneMap/HudItems.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/fonts/SneakAttack_0.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneTitle/GameTitle.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneTitle/Background.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/scenes/sceneGameover/Background.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/imgs/characters/Bird.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/fonts/SneakAttackBig_0.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/fonts/SneakAttackBig_1.png</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Ambience.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Glass.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Hit.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Shot.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Vacuum.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Confirm.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/se/Footstep.ogg</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/bgm/Ossuary6Air.mp3</File>
+    <File>C:/Users/haria/source/repos/wintergamee/Content/sounds/bgm/TheLift.mp3</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -49,13 +49,13 @@ namespace Winter_Defense.Scenes
         // Enemies
 
         private List<EnemyBase> _enemies;
-        private Ghost _ghost;
-        private Bird _bird;
+        private Characters.PhysicalObject _ghost;
+        private Characters.GameCrystal _bird;
 
         //--------------------------------------------------
         // Crystal
 
-        private GameCrystal _crystal;
+        private Managers.GameCrystal _crystal;
 
         //--------------------------------------------------
         // Particle Effects
@@ -156,7 +156,7 @@ namespace Winter_Defense.Scenes
             // Crystal init
             var mapSize = new Vector2(MapManager.Instance.MapWidth, MapManager.Instance.MapHeight);
             var crystalPosition = new Vector2(mapSize.X / 2 - 48, 96);
-            _crystal = new GameCrystal(crystalPosition, ImageManager.loadCharacter("Crystal"));
+            _crystal = new Managers.GameCrystal(crystalPosition, ImageManager.loadCharacter("Crystal"));
 
             // Wave Clear init
             var textWidth = SceneManager.Instance.GameFontBig.MeasureString(WaveClearText).Width;
@@ -319,8 +319,8 @@ namespace Winter_Defense.Scenes
             while (_enemiesSpawnManager.Queue.Count > 0)
             {
                 var model = _enemiesSpawnManager.ShiftModelFromQueue();
-                EnemyBase enemy = _ghost.Clone<Ghost>();
-                if (model.Type == EnemyType.Bird) enemy = _bird.Clone<Bird>();
+                EnemyBase enemy = _ghost.Clone<Characters.PhysicalObject>();
+                if (model.Type == EnemyType.Bird) enemy = _bird.Clone<Characters.GameCrystal>();
                 var halfTile = MapManager.Instance.TileSize.X / 2;
                 var x = model.Side == 0 ? halfTile : MapManager.Instance.MapWidth - halfTile;
                 var y = MapManager.Instance.MapHeight - MapManager.Instance.TileSize.Y;

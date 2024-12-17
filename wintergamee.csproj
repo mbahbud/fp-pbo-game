@@ -93,6 +93,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Objects\GameCrystal.cs" />
+    <Compile Include="Objects\GameHud.cs" />
+    <Compile Include="Objects\GameProjectile.cs" />
+    <Compile Include="Objects\PhysicalObject.cs" />
     <Compile Include="Spirites\CharacterSprite.cs" />
     <Compile Include="Spirites\FrameInfo.cs" />
     <Compile Include="Spirites\FrameList.cs" />

@@ -5,9 +5,9 @@ using Windows.UI.Xaml.Shapes;
 
 namespace Winter_Defense.Characters
 {
-    class Ghost : InputManager
+    class PhysicalObject : InputManager
     {
-        public Ghost(Texture2D texture) : base(texture)
+        public PhysicalObject(Texture2D texture) : base(texture)
         {
             // Stand
             CharacterSprite.CreateFrameList("stand", 120);
